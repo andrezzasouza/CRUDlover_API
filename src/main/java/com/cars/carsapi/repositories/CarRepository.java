@@ -8,3 +8,8 @@ import com.cars.carsapi.models.Car;
 @Repository
 public interface CarRepository extends JpaRepository<Car, Long> {
 }
+
+
+// TODO Listar
+// TODO Deletar
+// TODO Atualizar
