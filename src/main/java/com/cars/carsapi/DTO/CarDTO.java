@@ -1,5 +1,11 @@
 package com.cars.carsapi.DTO;
 
-public record CarDTO(String modelo, String fabricante, String dataFabricacao, int valor, int anoModelo) {
-  
+import com.cars.carsapi.models.Manufacturer;
+
+public record CarDTO(
+  String model, 
+  Manufacturer manufacturer, 
+  String manufactureDate, 
+  int price, 
+  int yearModel) {
 }
